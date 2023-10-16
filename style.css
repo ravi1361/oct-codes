@@ -1,0 +1,67 @@
+/* 1.Universal selectors */
+/* *{
+    color: greenyellow;
+} */
+
+/* 2.Type Selector  */
+h1{
+    color: red;
+}
+h4{
+    color: grey;
+}
+
+/* 3.ID selector */
+#join{
+    color: blueviolet;
+    background-color: antiquewhite;
+}
+
+/* 4.class selector */
+.green{
+    color: deeppink;
+}
+.active{
+    color: blue;
+}
+.disabled{
+    color: darkseagreen;
+}
+
+/* 5.combinator selector */
+
+/* child selector */
+#eg1>p{
+    background-color: brown;
+}
+
+/* Descendant selector */
+#eg1 p{
+    color: goldenrod;
+}
+
+#eg1>div>p{
+    color: forestgreen;
+}
+
+/* 6.pseudo class selector */
+#my-btn:hover{
+    color: blue;
+    background-color: white;
+    border: none;
+}
+
+#my-btn:focus{
+    background-color: yellow;
+}
+
+#my-list>li:first-child{
+    color: blue;
+}
+#my-list>li:nth-child(even){
+    color: sandybrown;
+}
+#my-list>li:nth-child(3){
+    color: antiquewhite;
+}
+
